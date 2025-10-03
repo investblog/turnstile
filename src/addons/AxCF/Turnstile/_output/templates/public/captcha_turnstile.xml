@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template title="captcha_turnstile" type="public">
+    <default><![CDATA[
+<xf:js src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer="defer" data-omit-defer="false" />
+
+<div class="cf-turnstile"
+     data-sitekey="{$siteKey}"
+     data-theme="{$theme}"
+     data-size="{$size}"
+     data-language="{$xf.language.language_code}">
+</div>
+    ]]></default>
+</template>
