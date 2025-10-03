@@ -1,0 +1,23 @@
+{
+    "option_id": "axcfTurnstileSize",
+    "edit_format": "select",
+    "edit_format_params": "normal=Normal\ncompact=Compact",
+    "data_type": "str",
+    "sub_options": [],
+    "validation_class": "",
+    "validation_method": "",
+    "value_parameters": "",
+    "default_value": "normal",
+    "can_backup": true,
+    "addon_id": "AxCF/Turnstile",
+    "relations": [
+        {
+            "relation_id": "axcfTurnstile",
+            "display_order": 40
+        }
+    ],
+    "phrases": {
+        "title": "axcf_turnstile_option_size",
+        "description": "axcf_turnstile_option_size_desc"
+    }
+}

@@ -8,10 +8,12 @@ class Captcha
 {
     public static function captchaTypes(App $app, array &$types): void
     {
+        $phrase = fn (string $name) => $app->phrase($name);
+
         $types['axcfTurnstile'] = [
-            'name' => 'Cloudflare Turnstile',
-            'title' => 'Cloudflare Turnstile',
-            'description' => 'Cloudflare Turnstile challenge provided by Cloudflare.',
+            'name' => $phrase('axcf_turnstile_captcha_title'),
+            'title' => $phrase('axcf_turnstile_captcha_title'),
+            'description' => $phrase('axcf_turnstile_captcha_description'),
             'class' => 'AxCF\\Turnstile\\Captcha\\Turnstile',
             'icon' => 'fa-shield-halved'
         ];

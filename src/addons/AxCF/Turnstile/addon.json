@@ -1,8 +1,8 @@
 {
     "title": "Cloudflare Turnstile",
-    "description": "Adds Cloudflare Turnstile as a CAPTCHA provider.",
-    "version_id": 1000000,
-    "version_string": "1.0.0",
+    "description": "Cloudflare Turnstile CAPTCHA provider for XenForo 2.",
+    "version_id": 2000000,
+    "version_string": "2.0.0",
     "dev": "AxCF",
     "require": {
         "XF": [

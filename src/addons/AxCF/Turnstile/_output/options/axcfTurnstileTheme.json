@@ -1,0 +1,23 @@
+{
+    "option_id": "axcfTurnstileTheme",
+    "edit_format": "select",
+    "edit_format_params": "auto=Auto\nlight=Light\ndark=Dark",
+    "data_type": "str",
+    "sub_options": [],
+    "validation_class": "",
+    "validation_method": "",
+    "value_parameters": "",
+    "default_value": "auto",
+    "can_backup": true,
+    "addon_id": "AxCF/Turnstile",
+    "relations": [
+        {
+            "relation_id": "axcfTurnstile",
+            "display_order": 30
+        }
+    ],
+    "phrases": {
+        "title": "axcf_turnstile_option_theme",
+        "description": "axcf_turnstile_option_theme_desc"
+    }
+}
